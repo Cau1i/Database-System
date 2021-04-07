@@ -12,7 +12,7 @@ public class LoginCheck{
 	
 	public boolean validate(){
 		//默认管理员账户和密码(root,java)
-		if("".equals(name)&&"".equals(password)){
+		if("root".equals(name)&&"java".equals(password)){
 			return true ;
 		}else{
 			return false ;
